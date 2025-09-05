@@ -2,7 +2,7 @@ import pygame
 import math
 import random
 from pygame import mixer
-from scipy.stats import energy_distance
+
 
 pygame.init()
 WIDTH = 800
@@ -39,6 +39,7 @@ enemy_x = []
 enemy_y = []
 enemy_x_change = []
 enemy_y_change = []
+
 # Multiple Enemies
 num_of_enemies = 4
 
